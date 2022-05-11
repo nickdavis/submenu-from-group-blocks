@@ -1,0 +1,21 @@
+{
+  "name": "nickdavis/submenu-from-group-blocks",
+  "description": "WordPress plugin which generates a submenu from Group block ID attributes in the WordPress block editor. Requires developer setup.",
+  "type": "wordpress-plugin",
+  "version": "1.0.0",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nick Davis"
+    }
+  ],
+  "require": {
+    "brightnucleus/view": "^0.4.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "NickDavis\\SubmenuGroupBlocks\\": "src/"
+    }
+  }
+}
